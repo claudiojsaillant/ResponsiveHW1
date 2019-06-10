@@ -217,11 +217,15 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 980px) {
+ @media screen and (max-width: 980px) {
 
   #main-container {
     float: left;
     width: 70%;
+  }
+
+  nav ul{
+    width: 100%
   }
 
   nav {
@@ -233,7 +237,7 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
 
   #main-container {
-    clear: both;
+    /* clear: both; */
     width: 100%;
     
   }
@@ -244,7 +248,7 @@ input[type=submit] {
     width: 45%;
     
   }
-
+  
 
 }
 
@@ -261,6 +265,9 @@ input[type=submit] {
 
 }
 
+
+
+
 @media screen and (max-width: 640px) {
 
   #logo {
@@ -274,9 +281,7 @@ input[type=submit] {
 
   }  
 
-  nav ul {
-    /* display: inline-block; */
-  }
+  
 
   #main-container {
 
@@ -288,7 +293,16 @@ input[type=submit] {
     padding-top: 0px;
   }
 
-}
+  
 
+  .work {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+} 
 
 

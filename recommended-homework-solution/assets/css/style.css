@@ -216,6 +216,14 @@ input[type=submit] {
   border: 0 none;
 }
 
+body {
+  margin: 0px;
+}
+
+#main-section {
+  margin: 8px;
+}
+
 
  @media screen and (max-width: 980px) {
 
@@ -231,6 +239,10 @@ input[type=submit] {
   nav {
     width: 40%;
   }
+
+  
+  
+ 
 
 }
 

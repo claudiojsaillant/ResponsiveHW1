@@ -251,6 +251,7 @@ input[type=submit] {
 @media screen and (max-width: 750px) {
 
   nav{
+     
     padding-left: 0;
     width: 50%;
     margin: 0px;
@@ -267,10 +268,27 @@ input[type=submit] {
   }
 
   nav {
-    width:76%;
 
+    width: 100%; 
+    text-align: center; 
+
+  }  
+
+  nav ul {
+    /* display: inline-block; */
+  }
+
+  #main-container {
+
+    margin-top: 50px;
 
   }
 
+  .main-section {
+    padding-top: 0px;
+  }
+
 }
+
+
 
